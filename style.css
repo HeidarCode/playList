@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 130vh;
+    height: 150vh;
     direction: rtl;
    font-family: VazirMatn;
 }
@@ -25,6 +25,11 @@ h2 {
 
 background: linear-gradient(#4caf50 , #f1f1f1);
 border-radius: 20px;
+padding: 5px 5px 5px;
+}
+h3 {
+    border-bottom: 2px solid #555;
+ font-weight: bold;
 }
 .music-card {
     display: flex;
@@ -38,7 +43,7 @@ border-radius: 20px;
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    height: 75vh;
+    height: 105vh;
     
 }
 
@@ -52,7 +57,7 @@ border-radius: 20px;
 }
 
 .info h2 {
-    margin: 0 0 10px 0;
+    margin: 2 0 15px 0;
     font-size: 1.5em;
     color: #333;
 }
